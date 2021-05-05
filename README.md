@@ -16,5 +16,5 @@ curl -H "Content-type: application/json" localhost:8080/rooms --data-raw '{ "nam
 Create a booking
 
 ```
-curl -H "Content-type: application/json" localhost:8080/rooms/0/bookings --data-raw '{ "roomId" : 1, "startDate" : "2021-05-05T10:00", "stopDate" : "2021-05 06T10:00", "bookedBy" : "joparo"}'
+curl -H "Content-type: application/json" localhost:8080/rooms/0/bookings --data-raw '{ "roomId" : 1, "startDate" : "2021-05-05T09:00", "stopDate" : "2021-05-05T10:00", "bookedBy" : "joparo"}'
 ```
