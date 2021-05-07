@@ -19,7 +19,6 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'io.cucumber:cucumber-java:latest.release'
     testImplementation 'io.cucumber:cucumber-junit-platform-engine:latest.release'
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:latest.release'
     testImplementation 'io.cucumber:cucumber-spring:latest.release'
 }
 
