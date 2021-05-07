@@ -2,7 +2,7 @@ Feature: Bookings can be created and retrieved
 
   Scenario: User makes a booking of a room that is not booked
     Given Room 1 is available between 13:00 and 15:00 tomorrow
-    When Alice makes a booking for tomorrow between 13:00 and 15:00
+    When Alice books Room 1 for tomorrow between 13:00 and 15:00
     Then Room 1 is booked between 13:00 and 15:00 by Alice
     
   Scenario: User can retrieve all bookings for a given time span
